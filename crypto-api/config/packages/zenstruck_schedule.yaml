@@ -1,0 +1,5 @@
+zenstruck_schedule:
+    tasks:
+        update_exchange_rates:
+            task: 'app:dispatch-update-rates'
+            frequency: '* * * * *'
